@@ -1,0 +1,286 @@
+#twomid {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 190px;
+    padding: 40px;
+    margin-top: 300px;
+}
+
+#twomid div {
+    background-color: white;
+    width: 330px;
+    padding: 19px;
+    font-size: 23px;
+    border: 3px solid;
+    border-radius: 20px;
+    font-weight: 500;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #ff7b0090, #8b33ff8c) border-box;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+#twomid img{
+    margin-bottom: -17px;
+}
+
+#twomid div:hover {
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #ff7b00, #7a33ff) border-box;
+}
+
+#twomid div img {
+    background-color: #dbe4f1;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+#secmid {
+    height: 3900px;
+    padding-top: 100px;
+    background: linear-gradient(90deg, #ffffff, #ffe7df);
+}
+
+
+
+
+
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+#fleft {
+    margin-left: 50px;
+}
+
+#fup {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#fmid {
+    font-size: 25px;
+    color: gray;
+    max-width: 640px;
+}
+
+#fup div {
+    background-color: #fcd9cd;
+    display: inline-block;
+    width: 300px;
+    border: 5px dashed #f35c29;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+#flearn,
+#fteam {
+    background-color: #f35c29;
+
+}
+
+#fright img {
+    width: 47vw;
+}
+
+#flearn {
+    height: 50px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 30px;
+    padding-inline: 30px;
+    border-radius: 10px;
+    border: transparent;
+    transition: 0.2s;
+}
+
+#flearn:hover {
+    background-color: #000;
+}
+
+#fteam {
+    color: white;
+    border: transparent;
+    padding: 5px;
+    font-size: 15px;
+    position: relative;
+    top: -310px;
+    left: 240px;
+    padding-inline: 15px;
+    border-radius: 5px;
+}
+
+#farrow {
+    position: relative;
+    top: -340px;
+    right: -150px;
+}
+
+#fteam:hover {
+    background-color: #000;
+}
+
+@media only screen and (max-width:1377px) {
+    #secmid {
+        height: 4200px;
+    }
+
+   
+}
+
+@media only screen and (max-width:1240px) {
+    #secmid{
+        height: 5000px;
+    }
+}
+@media only screen and (max-width:1150px) {
+    #twomid div {
+        width: 270px;
+        padding-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width:992px) {
+    #twomid {
+        flex-direction: column;
+        height: 450px;
+        align-items: center;
+    }
+
+    #twomid div {
+        width: 70vw;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #fup {
+        font-size: 40px;
+    }
+
+    #fmid {
+        font-size: 18px;
+    }
+
+    #fteam {
+        top: -200px;
+        left: 80px;
+
+    }
+
+    #farrow {
+        top: -220px;
+        right: 0px;
+    }
+
+    #fup div {
+        height: 60px;
+        line-height: 60px;
+        width: 200px;
+    }
+}
+@media only screen and (max-width:980px) {
+    #fteam {
+        top:-220px;
+    }
+    #farrow {
+        top:-240px;
+    }
+}
+@media only screen and (max-width:810px) {
+    #secmid {
+        height: 5500px;
+    }
+}
+
+@media only screen and (max-width:746px) {
+    #feature {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #secmid {
+        height: 6200px;
+    }
+
+    #fright {
+        order: 1;
+    }
+
+
+    #fright img {
+        width: 80vw;
+    }
+
+    #fleft {
+        order: 2;
+    }
+
+    #fup {
+        font-size: 60px;
+    }
+
+    #fup div {
+        width: 300px;
+        height: 80px;
+        line-height: 76px;
+    }
+
+    #fmid {
+        font-size: 25px;
+    }
+
+    #flearn {
+        height: 60px;
+        width: 200px;
+        font-size: 25px;
+    }
+
+    #fteam {
+        top: -305px;
+        left: 160px;
+        height: 40px;
+        width: 130px;
+        font-size: 16px;
+    }
+
+    #farrow {
+        top: -340px;
+        right: -50px;
+    }
+}
+@media only screen and (max-width:742px) {
+    #secmid {
+        height: 7300px;
+    }
+}
+@media only screen and (max-width:550px) {
+    #farrow {
+        display: none;
+    }
+    #fteam{
+        display: none;
+    }
+}
+@media only screen and (max-width:486px) {
+    #secmid {
+        height: 8000px;
+    }
+}

@@ -1,0 +1,87 @@
+#ourteam{
+    margin-top: 150px;
+}
+#team{
+    text-align: center;
+    margin-bottom: 150px;
+    font-size: 60px;
+    font-weight:600 ;
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 70px;
+}
+#teamup{
+    font-size: 20px;
+    color: #f35c29;
+    line-height: 30px;
+    font-weight: 400;
+}
+#ourhead{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+.person{
+    margin-bottom: 50px;
+}
+#p1{
+    background-color: #f25b29;
+    width: 380px;
+    border-top-right-radius: 190px;
+    height: 380px;
+}
+#p2{
+    background-color: #2776fc;
+    width: 380px;
+    border-top-right-radius: 190px;
+    height: 380px;
+}
+#p3{
+    background-color: #fece60;
+    width: 380px;
+    border-top-right-radius: 190px;
+    height: 380px;
+}
+
+#ourhead img{
+    position: relative;
+    top: -83px;
+}
+#p1 img,#p3 img{
+    margin-left: 30px;
+}
+#p2 img{
+    top: -72px;
+}
+
+#ps1{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+#ps1 span{
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+}
+#ps2{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+#ps2 span{
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+}
+#ps3{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+#ps3 span{
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+}
